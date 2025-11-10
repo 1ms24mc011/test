@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Checkout'){
       steps{
-          git branch:'main', url:'https://github.com/1ms24mc102/gitt'
+          git branch:'main', url:'https://github.com/1ms24mc011/test'
       }
     }
     stage('Build'){
